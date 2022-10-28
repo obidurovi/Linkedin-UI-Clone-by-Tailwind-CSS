@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+</head>
+<body class="flex flex-col items-center">
+    <!-- Header Starts -->
+    <div class="header w-full flex sticky z-50 justify-evenly pt-2.5 pb-2.5 bg-white">
+        <div class="header_left flex">
+          <img class="object-contain h-10 mr-2.5" src="assets/images/linkedin.png" alt="" />
+          <div class="header__search flex items-center rounded h-6">
+            <i class="material-icons"> search </i>
+            <input class="outline-none border-none" type="text" />
+          </div>
+        </div>
+  
+        <div class="header__right flex">
+          <div class="headerOption flex flex-col items-center mr-5 cursor-pointer">
+            <i class="material-icons headerOption__icon mr-1 h-5 w-5 rounded-full"> home </i>
+            <h3 class="text-xs mt-2.5 font-normal">Home</h3>
+          </div>
+          <div class="headerOption flex flex-col items-center mr-5 cursor-pointer">
+            <i class="material-icons headerOption__icon mr-1 h-5 w-5"> supervisor_account </i>
+            <h3 class="text-xs mt-2.5 font-normal">My Network</h3>
+          </div>
+          <div class="headerOption flex flex-col items-center mr-5 cursor-pointer">
+            <i class="material-icons headerOption__icon mr-1 h-5 w-5"> business_center </i>
+            <h3 class="text-xs mt-2.5 font-normal">Jobs</h3>
+          </div>
+          <div class="headerOption flex flex-col items-center mr-5 cursor-pointer">
+            <i class="material-icons headerOption__icon mr-1 h-5 w-5"> chat </i>
+            <h3 class="text-xs mt-2.5 font-normal">Messaging</h3>
+          </div>
+          <div class="headerOption flex flex-col items-center mr-5 cursor-pointer">
+            <i class="material-icons headerOption__icon mr-1 h-5 w-5"> notifications </i>
+            <h3 class="text-xs mt-2.5 font-normal">Notifications</h3>
+          </div>
+          <div class="headerOption flex flex-col items-center mr-5 cursor-pointer">
+            <img src="assets/images/profile.jpg" class="material-icons headerOption__icon mr-1 h-5 w-5 rounded-full" alt="">
+            <h3 class="text-xs mt-2.5 font-normal">Me</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Header Ends -->
+
+      <!-- Main Body Starts -->
+    <div class="body__main flex mt-9 m-auto">
+      <!-- Sidebar Starts -->
+      <div class="sidebar sticky rounded-xl text-center h-fit">
+        <div class="sidebar__top flex flex-col items-center rounded-t-xl pb-2.5	">
+          <img class="w-full h-16 rounded-t-xl object-cover" src="assets/images/bgc.jpg" alt="" />
+          <img src="assets/images/profile.jpg" class="material-icons sidebar__topAvatar rounded-full w-14 h-14 object-cover"  alt="" />
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <h2 class="text-xs mt-6">Obidur Rahman</h2>
+          <h4 class="text-xs mt-1 ">mdobidur099@gmail.com</h4>
+        </div>
+
+        <div class="sidebar__stats p-2.5 mb-2.5 bg-white rounded-b-xl">
+          <div class="sidebar__stat mt-2.5 flex justify-between">
+            <p class="text-gray-500 text-xs font-semibold	">Who Viewed You</p>
+            <p class="sidebar__statNumber font-bold	 text-xs">5,567</p>
+          </div>
+          <div class="sidebar__stat mt-2.5 flex justify-between">
+            <p class="text-gray-500 text-xs font-semibold">Views on post</p>
+            <p class="sidebar__statNumber font-bold	 text-xs">6,454</p>
+          </div>
+        </div>
+
+        <div class="sidebar__bottom text-left p-2.5 bg-white rounded-xl	mt-2.5">
+          <p class="text-sm	pb-2.5">Recent</p>
+          <div class="sidebar__recentItem flex text-xs text-gray-500 font-bold cursor-pointer mb-1 p-1 hover:bg-stone-300 rounded-xl cursor-pointer">
+            <span class="sidebar__hash mr-2.5 ml-2.5 mt-1">#</span>
+            <p class="text-sm">reactjs</p>
+          </div>
+          <div class="sidebar__recentItem flex text-xs text-gray-500 font-bold cursor-pointer mb-1 p-1 hover:bg-stone-300 rounded-xl cursor-pointer">
+            <span class="sidebar__hash mr-2.5 ml-2.5 mt-1">#</span>
+            <p class="text-sm">programming</p>
+          </div>
+          <div class="sidebar__recentItem flex text-xs text-gray-500 font-bold cursor-pointer mb-1 p-1 hover:bg-stone-300 rounded-xl cursor-pointer">
+            <span class="sidebar__hash mr-2.5 ml-2.5 mt-1">#</span>
+            <p class="text-sm">softwareengineering</p>
+          </div>
+          <div class="sidebar__recentItem flex text-xs text-gray-500 font-bold cursor-pointer mb-1 p-1 hover:bg-stone-300 rounded-xl cursor-pointer">
+            <span class="sidebar__hash mr-2.5 ml-2.5 mt-1">#</span>
+            <p class="text-sm">design</p>
+          </div>
+          <div class="sidebar__recentItem flex text-xs text-gray-500 font-bold cursor-pointer mb-1 p-1 hover:bg-stone-300 rounded-xl cursor-pointer">
+            <span class="sidebar__hash mr-2.5 ml-2.5 mt-1">#</span>
+            <p class="text-sm">developer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Feed Starts -->
+      <div class="feed">
+        <div class="feed__inputContainer bg-white p-2.5 pb-5 rounded-xl	mb-5">
+          <div class="feed__input rounded-3xl flex p-2.5 text-gray-500 pl-3.5">
+            <i class="material-icons"> create </i>
+            <form class="flex w-full">
+              <input type="text" class="border-none	ml-2.5 outline-0 font-semibold cursor-pointer" placeholder="Start a post">
+              <button class="hidden" type="submit">Send</button>
+            </form>
+          </div>
+
+          <div class="feed__inputOptions flex justify-evenly">
+            <div class="inputOption flex items-center mt-3.5 text-gray-500 p-2.5 cursor-pointer">
+              <i style="color: #70b5f9" class="material-icons"> insert_photo </i>
+              <h4 class="ml-1">Photo</h4>
+            </div>
+            <div class="inputOption flex items-center mt-3.5 text-gray-500 p-2.5 cursor-pointer">
+              <i style="color: #e7a33e" class="material-icons"> subscriptions </i>
+              <h4 class="ml-1">Video</h4>
+            </div>
+            <div class="inputOption flex items-center mt-3.5 text-gray-500 p-2.5 cursor-pointer">
+              <i style="color: #c0cbcd" class="material-icons"> event_note </i>
+              <h4 class="ml-1">Event</h4>
+            </div>
+            <div class="inputOption flex items-center mt-3.5 text-gray-500 p-2.5 cursor-pointer">
+              <i style="color: #7fc15e" class="material-icons"> calendar_view_day </i>
+              <h4 class="ml-1">Write Article</h4>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <!-- Post Starts -->
+        <!-- Feed -->
+<div class="post bg-white p-3.5 mb-2.5 rounded-xl">
+  <div class="post__header flex mb-2.5">
+      <img src="assets/images/profile.jpg" class="material-icons sidebar__topAvatar mt-1 w-10 h-10 object-cover rounded-full" alt="" />
+      <div class="post__info ml-2.5">
+          <h2 class="text-base">MD Obidur Rahman</h2>
+          <p class="text-xs	text-gray-500">MERN Stack Developer</p>
+      </div>
+  </div>
+
+  <div class="post__body">
+      <p>Real Madrid 1-0 Barcelona (Benzema) 
+        Playing like a man who has his eyes on the Ballon d'Or tomorrow 🏆</p>
+      <img src="assets/images/karim .jpg" alt="" class="feed-photo max-h-lg w-full object-cover m-auto mt-2.5 flex text-center" />
+  </div>
+
+  <div class="feed__inputOptions flex justify-evenly">
+      <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+          <i style="color: gray;" class="material-icons"> thumb_up </i>
+          <h4>Like</h4>
+      </div>
+      <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+          <i style="color: gray;" class="material-icons"> comment </i>
+          <h4>Comment</h4>
+      </div>
+      <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+          <i style="color: gray;" class="material-icons"> edit </i>
+          <h4>Edit</h4>
+      </div>
+      <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+          <i style="color: gray;" class="material-icons"> delete </i>
+          <h4>Delete</h4>
+      </div>
+  </div>
+</div>
+<!-- Feed End -->
+
+      <!-- Feed2 -->
+      <div class="post bg-white p-3.5 mb-2.5 rounded-xl">
+        <div class="post__header flex mb-2.5">
+            <img src="assets/images/asraf.jpg" class="material-icons sidebar__topAvatar mt-1 w-10 h-10 object-cover rounded-full" alt="" />
+            <div class="post__info ml-2.5">
+                <h2 class="text-base">Etai Life</h2>
+                <p class="text-xs	text-gray-500">WordPress Developer</p>
+            </div>
+        </div>
+
+        <div class="post__body">
+            <p>Etai Life </p>
+            <img src="assets/images/etailife.jpg" alt="" class="feed-photo max-h-lg w-full object-cover m-auto mt-2.5 flex text-center" />
+        </div>
+
+        <div class="feed__inputOptions flex justify-evenly">
+            <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+                <i style="color: gray;" class="material-icons"> thumb_up </i>
+                <h4>Like</h4>
+            </div>
+            <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+                <i style="color: gray;" class="material-icons"> comment </i>
+                <h4>Comment</h4>
+            </div>
+            <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+                <i style="color: gray;" class="material-icons"> edit </i>
+                <h4>Edit</h4>
+            </div>
+            <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+                <i style="color: gray;" class="material-icons"> delete </i>
+                <h4>Delete</h4>
+            </div>
+        </div>
+      </div>
+      <!-- Feed2 End -->
+
+          <!-- Feed2 -->
+    <div class="post bg-white p-3.5 mb-2.5 rounded-xl">
+      <div class="post__header flex mb-2.5">
+          <img src="assets/images/chanchal.jpg" class="material-icons sidebar__topAvatar mt-1 w-10 h-10 object-cover rounded-full" alt="" />
+          <div class="post__info ml-2.5">
+              <h2 class="text-base">Chanchal Chowdhury 
+              </h2>
+              <p class="text-xs	text-gray-500">Artist</p>
+          </div>
+      </div>
+
+      <div class="post__body">
+          <p>শেষ কবে দেখা হয়েছিল,কি কথা হয়েছিল আপনার সাথে,কিছুই মনে করতে পারছি না॥
+            কত দেখা,কত কথা,কত স্মৃতি!!!
+            আহারে জীবন!!!
+            আমার অভিনয় জীবনের শুরু থেকে এখন পর্যন্ত,
+            আপনি ছিলেন কখনো ডিরের্ক্টর,কখনো সহশিল্পী,কখনো সতীর্থ,কখনো অগ্রজ,কখনো বন্ধুর মতন॥
+            প্রবাসে বসে গতকালও আপনাকে নিয়েই আলোচনা।
+            শেষ দেখাটা হলো না।
+            আপনার আত্মার শান্তি হোক॥
+            মাসুম ভাই,পরপারে শান্তিতে থাকুন॥
+            অনেক শ্রদ্ধা আর ভালোবাসা 
+            আমাদের প্রানপ্রিয় নাট্যজন মাসুম আজিজ॥</p>
+          <img src="assets/images/sad.jpg" alt="" class="feed-photo max-h-lg w-full object-cover m-auto mt-2.5 flex text-center" />
+      </div>
+
+      <div class="feed__inputOptions flex justify-evenly">
+          <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+              <i style="color: gray;" class="material-icons"> thumb_up </i>
+              <h4>Like</h4>
+          </div>
+          <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+              <i style="color: gray;" class="material-icons"> comment </i>
+              <h4>Comment</h4>
+          </div>
+          <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+              <i style="color: gray;" class="material-icons"> edit </i>
+              <h4>Edit</h4>
+          </div>
+          <div class="inputOption flex items-center mt-4 p-2.5 cursor-pointer">
+              <i style="color: gray;" class="material-icons"> delete </i>
+              <h4>Delete</h4>
+          </div>
+      </div>
+    </div>
+    <!-- Feed2 End -->
+
+        <!-- Post Ends -->
+      </div>
+      <!-- Feed Ends -->
+
+      <!-- Widgets Starts -->
+      <div class="widgets sticky bg-white rounded-xl h-fit pb-2.5">
+        <div class="widgets__header flex items-center justify-between p-2.5">
+          <h2 class="text-base font-normal">LinkedIn Clone</h2>
+          <i class="material-icons text-sm"> info </i>
+        </div>
+        <div class="widgets__article flex p-2.5 cursor-pointer">
+          <div class="widgets__articleLeft mr-1">
+            <i class="material-icons text-base"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4 class="text-sm">Coding LinkedIn Clone</h4>
+            <p class="text-xs text-gray-500">Top news - 4500 readers</p>
+          </div>
+        </div>
+
+        <div class="widgets__article flex p-2.5 cursor-pointer">
+          <div class="widgets__articleLeft mr-1">
+            <i class="material-icons text-base"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4 class="text-sm">Coding LinkedIn Clone</h4>
+            <p class="text-xs text-gray-500">Top news - 4500 readers</p>
+          </div>
+        </div>
+
+        <div class="widgets__article flex p-2.5 cursor-pointer">
+          <div class="widgets__articleLeft mr-1">
+            <i class="material-icons text-base"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4 class="text-sm">Coding LinkedIn Clone</h4>
+            <p class="text-xs text-gray-500">Top news - 4500 readers</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Widgets Ends -->
+    </div>
+    <!-- Main Body Ends -->
+</body>
+</html>
